@@ -1,7 +1,7 @@
 from in_out_modules import *
 
 main_matrix = []
-height, width, main_matrix = read_from_file(main_matrix)
+height, width, main_matrix = read_from_flow(main_matrix)
 debugger_print_matrix(main_matrix)
 
 for i in range(1, height - 1):
