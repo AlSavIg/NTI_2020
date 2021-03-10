@@ -15,4 +15,3 @@ for i in range(height):
             else:
                 file_output.write(str(randint(0, 1)) + " ")
     file_output.write("\n")
-file_output.close()
