@@ -55,8 +55,9 @@ def inpainting(main_matrix, max):
 
 
 main_matrix = []
-height, width, main_matrix = read_from_file(main_matrix)
+height, width, main_matrix = read_from_flow(main_matrix)
 lst_indexes = edge_searching(main_matrix)
 max = max_count(lst_indexes)
 inpainting(main_matrix, max)
 debugger_print_matrix(main_matrix)
+# print(lst_indexes)

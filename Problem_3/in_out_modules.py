@@ -19,3 +19,10 @@ def read_from_flow(main_matrix):
     main_matrix = [list(map(int, input().split())) for i in range(height)]
 
     return height, width, main_matrix
+
+
+def beauty_print(matrix):
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            print(matrix[i][j], end=" ")
+        print()
