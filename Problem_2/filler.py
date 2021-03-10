@@ -11,9 +11,6 @@ s_pos_j = randint(1, width // 2)
 f_pos_i = randint(height // 2 + 1, height - 1)
 f_pos_j = randint(width // 2 + 1, width - 1)
 
-print(height, width, end="\n")
-print(s_pos_i, s_pos_j, f_pos_i, f_pos_j)
-
 for i in range(height):
     if i == 0 or i == height - 1:
         for j in range(width):
